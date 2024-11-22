@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <script src="script.js"></script>
+  <body>
+    <div class="container">
+      <p id="para">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fuga
+        vero odio hic, perferendis rerum tempore dolores nulla earum vel quam
+        facilis unde totam a eius, alias officia est fugit.
+      </p>
+      <img id="kdb" src="kdb.jpeg" alt="" />
+      <img id="rodri" src="rodri.jpeg" alt="" />
+      <div class="buttons">
+        <button
+          type="button"
+          onclick="document.getElementById('para').style.display='none'"
+        >
+          Click me
+        </button id="btn">
+        <button
+          type="button"
+          onclick="document.getElementById('kdb').style.display='none'"
+        >
+          kdb
+        </button id="btn">
+        <button
+          type="button"
+          onclick="document.getElementById('rodri').style.display='none'"
+        >
+          rodri
+        </button>
+        <button id="btn"
+          type="button"
+          onclick="document.getElementById('para').style.display='block'"
+        >
+          HIPPE
+        </button>
+        <button id="btn"
+          type="button"
+          onclick="document.getElementById('kdb').style.display='block'"
+        >
+          HIPPE2
+        </button>
+        <button id="alls"
+          type="button"
+          onclick="document.getElementById('rodri').style.display='block'"
+        >
+          HIPPE3
+        </button>
+      </div>
+      <button id="button" type="button"
+      onclick="alert('Button was clicked!');">My Button</button>
+
+<br /><br />
+<button onclick="toggle();">Toggle hidden</button>
+<br>
+<div class="test"><h1>The Window Object</h1>
+  <h2>The prompt() Method</h2>
+  
+  <p>Click the button to demonstrate the prompt box.</p>
+  
+  <button onclick="myFunction()">Try it</button>
+  
+  <p id="demo"></p>
+  
+  <script>
+  function myFunction() {
+    let person = prompt("Please enter your name", "Harry Potter");
+    if (person != null) {
+      document.getElementById("demo").innerHTML =
+      "Hello " + person + "! How are you today?";
+    }
+  }
+  </script></div>
+     
+    </div>
+    
+<footer>
+    <button onclick="toggle2();">Toggle hmemburu impian</button>
+</footer>
+  </body>
+</html>
